@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind UI/UX</title>
+</head>
+<body>
+    <nav class="flex w-full items-center justify-between px-[20px] py-[16px] lg:container lg:mx-auto lg:px-20">
+        <div class="flex gap-5">
+            <img src="./images/Logo.svg" alt="">
+
+            <ul class="hidden lg:flex lg:gap-5 lg:items-center ">
+                <li>Featured</li>
+                <li>Pricing</li>
+                <li>Enterprise</li>
+                <li>Careers</li>
+            </ul>
+        </div>
+
+        <div class="flex gap-5 items-center">
+            <p class="hidden lg:block font-medium text-[#36485c] mr-6">Open an Account</p>
+            <div class="flex items-center gap-5">
+            <img src="/images/profile.svg" alt="">
+            <span class="hidden font-medium text-[#36485c] lg:block">Sign In</span>
+            </div>
+            <img class="lg:hidden" src="/images/Menu.svg" alt="">
+        </div>
+    </nav>
+
+    <main class="mt-4 lg:mt-10">
+        <div class='px-[20px] lg:px-[390px]'>
+            <h1 class="text-center text-[32px] leading-10 font-medium text-[#172026] lg:text-[64px] lg:leading-[72px]">Start monitoring your website like a pro</h1>
+            <p class="text-center mt-5 text-[#36485c] font-medium lg:text-[18px] lg:leading-7">Get a bird's eye view with our customizable dashboard. Stay on top of things! Revamp your work process with our game-changing feature. Boost productivity and efficiency!</p>
+
+            <div class='flex gap-4 mt-8 justify-center gap-x-6'>
+                <button class="bg-[#4328eb] w-1/2 text-white py-4 px-8 rounded-[4px] lg:w-fit">Try for free</button>
+                <button class="text-[#4328eb] w-1/2 flex items-center gap-2 lg:w-fit">View Pricing <span><img src="/images/arrow.png" alt=""></span> </button>
+            </div>
+        </div>
+
+        <div class='relative flex h-full w-full justify-center'>
+            <Image src='/images/Gradient.svg' alt="Gradient" class='min-h-[500px] object-cover lg:h-auto'/>
+            <div class='absolute flex-col bottom-5'>
+                <img src='/images/Image.svg' alt="HeroImage" ='-ml-4 h-[310px] sm:-mb-20 sm:h-[400px] lg:-mb-28 lg:h-auto xl-w-[70%]'/>
+
+                <div class='flex w-full flex-col items-center lg:container lg:flex-grow lg:justify-between lg:px-20'>
+                    <p class='text-center text-white font-medium'>Trusted by these companies</p>
+                    <div class='grid grid-cols-3 items-center justify-items-center px-[20px] align-middle lg:grid-cols-5'>
+                        <Image src='/images/Google.svg' alt='Google'/>
+                        <Image src='/images/Slack.svg' alt='Slack'/>
+                        <Image src='/images/Trustpilot.svg' alt='Truspilot'/>
+                        <Image src='/images/CNN.svg' alt='CNN'/>
+                        <Image src='/images/Clutch.svg' alt='Cluch'/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="px-[20px] lg:container lg:px-20 mx-auto">
+
+        <div class="flex flex-col gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px]">
+            <div class="flex flex-col gap-x-6 sm:flex-row-reverse">
+                <Image src='/images/feature-1.svg' alt='feature Image 1' class='hidden w-1/2 sm:block'/>
+                <div class='sm:w-1/2 lg:py-[56px] lg:pr-[56px]'>
+                    <h3 class="font-medium text-[#0082ff] lg:text-[18px]">Sales Monitoring</h3>
+                    <h1 class="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">Simplify your sales monitoring</h1>
+                    <Image src='/images/feature-1.svg' alt='feature1' class='pt-[24px] sm:hidden' />
+                    <p class='py-[24px] text-[#36585c] lg:text-[18px]'>Stay on top of things and revamp your work process with our game-changing feature. Get a bird's eye view with our customizable dashboard</p>
+
+                    <ul class='flex flex-col gap-y-3 lg:text-[18px]'>
+                        <li class='flex items-center gap-x-2 text-[#36485c]'>
+                            <span><Image src='/images/check.svg' alt='check'/></span>
+                            Lorem ipsum dolor sit amet
+                        </li>
+                        <li class='flex items-center gap-x-2 text-[#36485c]'>
+                            <span><Image src='/images/check.svg' alt='check'/></span>
+                            Lorem ipsum dolor sit amet
+                        </li>
+                        <li class='flex items-center gap-x-2 text-[#36485c]'>
+                            <span><Image src='/images/check.svg' alt='check'/></span>
+                            Lorem ipsum dolor sit amet
+                        </li>
+                    </ul>
+
+                    <p class='flex gap-2 mt-6 font-medium text-[#0085ff] lg:text-[18px]'>Learn More <span><Image src='/images/blue-button.svg' alt='learn more'/></span></p>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-x-6 sm:flex-row">
+                <Image src='/images/feature-2.svg' alt='feature Image 1' class='hidden w-1/2 sm:block'/>
+                <div class='sm:w-1/2 lg:py-[56px] lg:pl-[56px]'>
+                    <h3 class="font-medium text-[#00a424] lg:text-[18px]">Customer Support</h3>
+                    <h1 class="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">Get in touch with your customers</h1>
+                    <Image src='/images/feature-2.svg' alt='feature1' class='pt-[24px] sm:hidden' />
+                    <p class='py-[24px] text-[#36585c] lg:text-[18px]'>Stay on top of things and revamp your work process with our game-changing feature. Get a bird's eye view with our customizable dashboard</p>
+
+                    <ul class='flex flex-col gap-y-3 lg:text-[18px]'>
+                        <li class='flex items-center gap-x-2 text-[#36485c]'>
+                            <span><img src='/images/check.svg' alt='check'/></span>
+                            Lorem ipsum dolor sit amet
+                        </li>
+                        <li class='flex items-center gap-x-2 text-[#36485c]'>
+                            <span><img src='/images/check.svg' alt='check'/></span>
+                            Lorem ipsum dolor sit amet
+                        </li>
+                        <li class='flex items-center gap-x-2 text-[#36485c]'>
+                            <span><img src='/images/check.svg' alt='check'/></span>
+                            Lorem ipsum dolor sit amet
+                        </li>
+                    </ul>
+
+                    <p class='flex gap-2 mt-6 font-medium text-[#00a424] lg:text-[18px]'>Learn More <span><img src='/images/green-button.svg' alt='learn more'/></span></p>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-x-6 sm:flex-row-reverse">
+                <img src='/images/feature-3.svg' class='hidden w-1/2 sm:block'/>
+                <div class='sm:w-1/2 lg:py-[56px] lg:pr-[56px]'>
+                    <h3 class="font-medium text-[#eb2891] lg:text-[18px]">Growth Monitoring</h3>
+                    <h1 class="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">Monitor your site's new subscribers</h1>
+                    <img src='/images/feature-3.svg' alt='feature1' class='pt-[24px] sm:hidden' />
+                    <p class='py-[24px] text-[#36585c] lg:text-[18px]'>Stay on top of things and revamp your work process with our game-changing feature. Get a bird's eye view with our customizable dashboard</p>
+                    <div class='flex w-full gap-x-[24px]'>
+                        <div class='w-1/2 flex flex-col gap-y-3'>
+                            <h3 class='heading'>100+</h3>
+                            <p class='text-[#36485c]'>Lorem ipsum dolor sit</p>
+                        </div>
+                        <div class='w-1/2 flex flex-col gap-y-3'>
+                            <h3 class='heading'>800+</h3>
+                            <p class='text-[#36485c]'>Conse adopiscing elit</p>
+                        </div>
+                    </div>
+                    <p class='flex gap-2 mt-6 font-medium text-[#eb2891] lg:text-[18px]'>Learn More <span><img src='/images/pink-button.svg'/></span></p>
+                </div>
+            </div>
+        </div>
+<!-- Pricing -->
+        <div class='py-[48px] lg:py-[60px]'>
+            <h1 class="text-[#172026] text-center font-medium text-2xl lg:text-[42px]">Flexible plans for you</h1>
+            <p class="pt-[16px] pb-[40px] text-[#36485c] text-center lg:text-[18px]">No hidden fees</p>
+
+            <div class="flex flex-col gap-y-6 lg:flex-row lg:gap-x-[24px]">
+                <div class="w-full rounded-[8px] bg-[#f5f4ff] p-6 flex flex-col lg:justify-between">
+                    <div>
+                        <h3 class="font-medium text-[#4328eb] text-[18px] lg:text-xl">Free Trial</h3>
+                        <p class="pt-3 text-[#36485c] lg:text-[18px]">Perfect for testing the waters</p>
+
+                        <h2 class="mt-4 text-2xl font-medium lg:text-[32px]">0$ <span class="text-[#5f7986]">/mo</span></h2>
+
+                        <ul class='flex flex-col gap-y-2 pt-4 text-[#5f7896]'>
+                            <li class='flex items-center gap-x-2'><span><Image src='/images/check.svg' /></span>Lorem ipsum dolor sit amet</li>
+                            <li class='flex items-center gap-x-2'><span><Image src='/images/check.svg'/></span>Lorem ipsum dolor sit amet</li>
+                            <li class='flex items-center gap-x-2'><span><Image src='/images/check.svg'/></span>Lorem ipsum dolor sit amet</li>
+                        </ul>
+                    </div>
+                    <button class='mt-[16px] bg-white rounded-[4px] text-[#4328eb] font-medium'>Start Trial</button>
+                </div>
+
+                <div class="w-full rounded-[8px] bg-[#4328eb] p-6 flex flex-col">
+                    <div>
+                        <h3 class="font-medium text-white text-[18px] lg:text-xl">Business</h3>
+                        <p class="pt-3 text-white lg:text-[18px]">Perfect for small businesses</p>
+
+                        <h2 class="mt-4 text-2xl font-medium text-white lg:text-[32px]">$500<span class="text-[#f4f8fa]">/mo</span></h2>
+
+                        <ul class='flex flex-col gap-y-2 pt-4 text-[#5f7896]'>
+                            <li class='flex items-center gap-x-2'><span><Image src='/images/check.svg'/></span>Lorem ipsum dolor sit amet</li>
+                            <li class='flex items-center gap-x-2'><span><Image src='/images/check.svg'/></span>Lorem ipsum dolor sit amet</li>
+                            <li class='flex items-center gap-x-2'><span><Image src='/images/check.svg'/></span>Lorem ipsum dolor sit amet</li>
+                            <li class='flex items-center gap-x-2'><span><Image src='/images/check.svg'/></span>Lorem ipsum dolor sit amet</li>
+                            <li class='flex items-center gap-x-2'><span><Image src='/images/check.svg'/></span>Lorem ipsum dolor sit amet</li>
+                        </ul>
+                    </div>
+                    <button class='mt-[16px] bg-white rounded-[4px] text-[#4328eb] font-medium'>Get Started</button>
+                </div>
+
+                <div class="w-full rounded-[8px] bg-[#f5f4ff] p-6 flex flex-col lg:justify-between">
+                    <div>
+                        <h3 class="font-medium text-[#4328eb] text-[18px] lg:text-xl">Enterprise</h3>
+                        <p class="pt-3 text-[#36485c] lg:text-[18px]">Perfect for big companies</p>
+
+                        <h2 class="mt-4 mb-4 text-2xl font-medium lg:text-[32px]">Custom </h2>
+                        <p class='text-[#36485c]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis cum asperiores iste, explicabo ullam vel?</p>
+                        <p class='mt-3 text-[#36485c]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi magnam laboriosam sunt natus vitae, est amet esse molestiae possimus doloribus!</p>
+                    </div>
+                    <button class='mt-[16px] bg-white rounded-[4px] text-[#4328eb] font-medium'>Contact Us</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA -->
+        <div class='rounded-[16px] bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 py-[56px] px-[32px] text-center lg:py-[60px] lg:px-[324px]'>
+            <h1 class="text-white font-medium text-[32px] lg:text-[56px] leading-[][64px]">Monitor your website like a pro</h1>
+            <p class="text-white font-medium mt-6 lg:text-[18px]">Join over 800+ happy site owners boosting productivity and efficiency</p>
+
+            <div class="mt-10 flex flex-col w-full items-center lg:flex-row lg:gap-x-[40px] lg:justify-center">
+                <button class="bg-white py-4 px-8 rounded text-pink-500 font-medium">Try for free</button>
+
+                <button class='flex gap-x-5 pt-[32px] text-white font-medium lg:mt-0'>Contact Sales <span><Image src='/images/arrow.png' /></span></button>
+            </div>
+        </div>
+
+        <footer class='mt-[80px] mb-[40px]'>
+            <div class='flex items-center justify-center gap-x-[12px]'>
+                <Image src='/images/Logo.svg' alt='Logo'/>
+                <p class='font-bold text-[#36485c] text-[17px]'>George-Benson</p>
+            </div> 
+
+            <ul class='flex flex-col items-center gap-y-[32px] pt-[56px] text-[#36485c] sm:flex-row sm:justify-center sm:gap-x-5 sm:pt-5'>
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>Enterprise</li>
+                <li>Careers</li>
+            </ul>
+            <p class='mt-[56px] text-center text-[14px] font-medium text-[#5f7896]'>&#169; Copyright 2024. All rights reserved</p>
+
+            <div class='flex items-center justify-center gap-x-[56px] mt-[40px]'>
+                <Image src='/images/Facebook.svg' alt='Facebook' />
+                <Image src='/images/X.svg' alt='Twitter' />
+                <Image src='/images/Feed.svg' alt='Feed' />
+            </div>
+        </footer>
+
+
+    </div>
+</body>
+</html>
